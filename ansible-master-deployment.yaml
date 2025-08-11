@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: ansible-master-container
-        image: sayantan2k21/ansible-master-minimal:rhel9-v1
+        image: tarunkohli/ansible-master-minimal:rhel9-v1
         ports:
         - containerPort: 22
         volumeMounts:
